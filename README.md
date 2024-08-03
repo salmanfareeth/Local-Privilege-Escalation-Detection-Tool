@@ -49,7 +49,7 @@ The Local Privilege Escalation Detection Tool is a Python-based script designed 
 5. **Run the script using Python 3.x**:
  
     ```py
-    python3 privilege_escalation_detection.py
+    python3 privil_escal_detection.py
     ```
 
 ## System Requirements

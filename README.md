@@ -1,16 +1,17 @@
 # Local Privilege Escalation Detection Tool
 
-   _____                ___          ____       _       _ __                   ______                __      __  _           
-  / ___/__  _____  ____/ ( )_____   / __ \\_____(_)   __(_) /__  ____ ____     / ____/_____________ _/ /___ _/ /_(_)___  ____ 
-  \\__ \\/ / / / _ \\/ __  /|// ___/  / /_/ / ___/ / | / / / / _ \\/ __ `/ _ \\   / __/ / ___/ ___/ __ `/ / __ `/ __/ / __ \\/ __ \\
- ___/ / /_/ /  __/ /_/ /  (__  )  / ____/ /  / /| |/ / / /  __/ /_/ /  __/  / /___(__  ) /__/ /_/ / / /_/ / /_/ / /_/ / / / /
-/____/\\__, /\\___/\\__,_/  /____/  /_/   /_/  /_/ |___/_/_/\\___/\\__, /\\___/  /_____/____/\\___/\\__,_/_/\\__,_/_\\__/_\\____/_/ /_/ 
-    _/____/    __            __  _                ______     /____/ __                                                       
-   / __ \\___  / /____  _____/ /_(_)___  ____     /_  __/___  ____  / /                                                       
-  / / / / _ \\/ __/ _ \\/ ___/ __/ / __ \\/ __ \\     / / / __ \\/ __ \\/ /                                                        
- / /_/ /  __/ /_/  __/ /__/ /_/ / /_/ / / / /    / / / /_/ / /_/ / /                                                         
-/_____\\___/\\__\\___/\\___/\\__/_/\\____/_/ /_/    /_/  \\____/\\____/_/                                                          
-
+echo "   _____                ___          ____       _       _ __                   ______                __      __  _           "
+echo "  / ___/__  _____  ____/ ( )_____   / __ \_____(_)   __(_) /__  ____ ____     / ____/_____________ _/ /___ _/ /_(_)___  ____ "
+echo "  \__ \/ / / / _ \/ __  /|// ___/  / /_/ / ___/ / | / / / / _ \/ __ \/ _ \   / __/ / ___/ ___/ __ `/ / __ `/ __/ / __ \/ __ \\"
+echo " ___/ / /_/ /  __/ /_/ /  (__  )  / ____/ /  / /| |/ / / /  __/ /_/ /  __/  / /___(__  ) /__/ /_/ / / /_/ / /_/ / /_/ / / / /"
+echo "/____/\__, /\___/\__,_/  /____/  /_/   /_/  /_/ |___/_/_/\___/\__, /\___/  /_____/____/\___/\__,_/_/\__,_/\__/_/\____/_/ /_/ "
+echo "    _/____/    __            __  _                ______     /____/ __                                                       "
+echo "   / __ \___  / /____  _____/ /_(_)___  ____     /_  __/___  ____  / /                                                       "
+echo "  / / / / _ \/ __/ _ \/ ___/ __/ / __ \/ __ \     / / / __ \/ __ \/ /                                                        "
+echo " / /_/ /  __/ /_/  __/ /__/ /_/ / /_/ / / / /    / / / /_/ / /_/ / /                                                         "
+echo "/_____/\___/\__/\___/\___/\__/_/\____/_/ /_/    /_/  \____/\____/_/                                                          "
+echo "                                                                                                                             "
+                                                       
 ## Overview
 
 The Local Privilege Escalation Detection Tool is a Python-based script designed to detect potential privilege escalation vulnerabilities on a system. The tool performs various checks including:
@@ -34,9 +35,18 @@ The Local Privilege Escalation Detection Tool is a Python-based script designed 
 
 1. **Ensure you have the necessary permissions to run the script**: Running this tool might require administrative privileges.
 2. **Customize the paths and log files to be checked**: Modify the `critical_paths` and `log_paths` lists in the script to include the files and directories specific to your environment.
-3. **Run the script using Python 3.x**:
-   ```py
-   $ python3 privilege_escalation_detection.py
+
+3. **Clone the repository:**
+   
+    ```bash
+    git clone https://github.com/salmanfareeth/Local-Privilege-Escalation-Detection-Tool.git
+    cd Local-Privilege-Escalation-Detection-Tool
+    ```
+
+5. **Run the script using Python 3.x**:
+6. 
+   ```bash
+    python3 privilege_escalation_detection.py
    ```
 
 ## System Requirements

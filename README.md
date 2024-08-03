@@ -71,7 +71,6 @@ The Local Privilege Escalation Detection Tool is a Python-based script designed 
 - [Regular Expressions in Python](https://docs.python.org/3/library/re.html)
 - [File and Directory Access in Python](https://docs.python.org/3/library/os.html#os-file-dir)
 - [Error Handling in Python](https://docs.python.org/3/tutorial/errors.html)
-- [Python Security Best Practices](https://realpython.com/python-security/)
 
 
 ## Developer and Disclaimer Notes

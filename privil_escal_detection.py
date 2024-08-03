@@ -7,8 +7,7 @@ import platform
 import re
 from datetime import datetime
 
-# ASCII Art
-ASCII_ART = """
+TOOL_INTRO = """
    _____                ___          ____       _       _ __                   ______                __      __  _           
   / ___/__  _____  ____/ ( )_____   / __ \\_____(_)   __(_) /__  ____ ____     / ____/_____________ _/ /___ _/ /_(_)___  ____ 
   \\__ \\/ / / / _ \\/ __  /|// ___/  / /_/ / ___/ / | / / / / _ \\/ __ `/ _ \\   / __/ / ___/ ___/ __ `/ / __ `/ __/ / __ \\/ __ \\
@@ -126,12 +125,12 @@ def print_instructions():
     Usage:
     1. Ensure you have the necessary permissions to run the script.
     2. Customize the paths and log files to be checked.
-    3. Run the script using Python 3.x: $ python3 privilege_escalation_detection.py
+    3. Run the script using Python 3.x: $ python3 privil_escal_detection.py
     """
     print(instructions)
 
 if __name__ == "__main__":
-    print(ASCII_ART)
+    print(TOOL_INTRO)
     print(DEVELOPER_NOTE)
     print(DISCLAIMER)
     print_instructions()

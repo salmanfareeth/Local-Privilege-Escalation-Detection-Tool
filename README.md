@@ -62,11 +62,16 @@ The Local Privilege Escalation Detection Tool is a Python-based script designed 
 ## References
 
 - [MITRE ATT&CK - Privilege Escalation](https://attack.mitre.org/tactics/TA0004/)
-- [OWASP Testing Guide - Privilege Escalation](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Authorization_Testing/02-Testing_for_Privilege_Escalation)
-- [Microsoft Docs - Least Privilege Administrative Models](https://docs.microsoft.com/en-us/microsoft-365/enterprise/privileged-access-management)
 - [Linux File Permissions](https://www.tldp.org/LDP/intro-linux/html/sect_03_04.html)
 - [Windows Registry Guide](https://docs.microsoft.com/en-us/windows/win32/sysinfo/registry)
 - [System Log Analysis: Linux Log Files](https://www.tldp.org/LDP/lame/LAME/linux-admin-made-easy/log-files.html)
+- [Python OS Module](https://docs.python.org/3/library/os.html)
+- [Python Subprocess Module](https://docs.python.org/3/library/subprocess.html)
+- [Python Logging Module](https://docs.python.org/3/library/logging.html)
+- [Regular Expressions in Python](https://docs.python.org/3/library/re.html)
+- [File and Directory Access in Python](https://docs.python.org/3/library/os.html#os-file-dir)
+- [Error Handling in Python](https://docs.python.org/3/tutorial/errors.html)
+- [Python Security Best Practices](https://realpython.com/python-security/)
 
 
 ## Developer and Disclaimer Notes
